@@ -1,0 +1,16 @@
+{
+  "name": "tarea_1",
+  "version": "1.0.0",
+  "description": "Tarea 1",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}

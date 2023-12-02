@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="/alumnos" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+        <label for="edad">Edad</label>
+        <input type="text" name="edad">
+        <label for="genero">Género</label>
+        <select name="genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select><br><br>
+        <label for="estatura">Estatura</label>
+        <input type="number" name="estatura" step="0.01">
+        <label for="peso">Peso</label>
+        <input type="number" name="peso" step="0.01"><br><br>
+        <label for="matricula">Matrícula</label>
+        <input type="text" name="matricula">
+        <label for="carrera">Carrera</label>
+        <select name="carrera">
+            <option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+            <option value="Ingeniería Civil">Ingeniería Civil</option>
+            <option value="Ingeniería en Computación">Ingeniería en Computación</option>
+            <option value="Ingeniería Eléctrica">Ingeniería Eléctrica</option>
+            <option value="Ingeniería Electrónica">Ingeniería Electrónica</option>
+            <option value="Ingeniería Física">Ingeniería Física</option>
+            <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+            <option value="Ingeniería Mecánica">Ingeniería Mecánica</option>
+            <option value="Ingeniería Metalúrgica">Ingeniería Metalúrgica</option>
+            <option value="Ingeniería Química">Ingeniería Química</option>
+        </select><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
